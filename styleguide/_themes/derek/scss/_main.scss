@@ -1,7 +1,6 @@
 @import 'modifiers';
 @import '../../../derek/global-components/ceiling/ceiling';
 @import '../../../derek/global-components/ceiling/ceilingLp';
-@import 'globalElements/ext-links';
 @import '../../../derek/global-components/mainnav/mainnav';
 @import '../../../derek/global-components/rug/rug';
 @import '../../../derek/global-components/footer/footer';
@@ -12,6 +11,7 @@
 @import '../../../derek/global-components/region-select/region-select';
 @import 'components/pager';
 @import '../../../derek/pattern-components/announcements/announcements';
+@import '../../../derek/pattern-components/ext-link/ext-link';
 @import '../../../derek/pattern-components/blog-feed/blog-feed';
 @import 'patterns/image';
 @import 'patterns/lead';

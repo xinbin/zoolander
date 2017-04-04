@@ -7,9 +7,11 @@ module.exports = {
       "window": true,
       "document": true,
       "jQuery": true,
+      "Zoolander": true
     },
     "rules": {
       // Errors.
-      "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["$"] }],
+      "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["$", "Zoolander"] }],
+      "no-bitwise": [0, { allow: ["~"] }],
     }
 };
